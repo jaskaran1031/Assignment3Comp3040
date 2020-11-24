@@ -12,7 +12,7 @@ There are two endpoints for this API, both using a `GET` request.
 
 **town**  (string), the name of the town in Manitoba. Required.
 - sample request: ```https://www.manitobatowninfo.com/documentation?town=winnipeg``` 
--- response: 
+    - response: 
     ```
     {
         "results" :
@@ -28,7 +28,7 @@ There are two endpoints for this API, both using a `GET` request.
     }
     ```
 - sample request: ```https://www.manitobatowninfo.com/documentation?town=wiinipegg```   
--- response:
+    - response:
     ```
     {
         "results" : ""
@@ -42,7 +42,7 @@ There are two endpoints for this API, both using a `GET` request.
 **comparison** (string), the value must be one of `"less"`, `"more"`, or `"equal"`. Required.  
 **size** (int), the number of people in a town. Required.
 - sample request: ```https://www.manitobatowninfo.com/population?comparison=less&size=1000```
-- response:
+    - response:
 ```
     {
         "results" :
