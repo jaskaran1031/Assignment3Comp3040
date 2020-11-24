@@ -5,10 +5,11 @@ This API provides information of each city/town in Manitoba, including populatio
 
 #### Endpoints and Parameters
 
-There are two endpoints for this API using `GET` request.
+There are two endpoints for this API, both using a `GET` request.
 
 #### `/documentation`
-- parameter: **town**  (string), the name of the town in Manitoba. Required.
+- parameter:  
+**town**  (string), the name of the town in Manitoba. Required.
 - sample request: ```https://www.manitobatowninfo.com/documentation?town=winnipeg```
 - response: 
     ```
@@ -27,7 +28,8 @@ There are two endpoints for this API using `GET` request.
     ```
 
 #### `/population`
-- parameters: **comparison** (string), the value must be one of `"less"`, `"more"`, or `"equal"`. Required.  
+- parameters:  
+**comparison** (string), the value must be one of `"less"`, `"more"`, or `"equal"`. Required.  
 **size** (int), the number of people in a town. Required.
 - sample request: ```https://www.manitobatowninfo.com/polulation?comparison=less&size=1000```
 - response:
