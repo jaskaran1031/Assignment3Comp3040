@@ -27,7 +27,7 @@ There are two endpoints for this API, both using a `GET` request.
         "status":"OK"
     }
     ```
-- sample request: ```https://www.manitobatowninfo.com/documentation?town=wiinipegg```   
+- sample request: ```https://www.manitobatowninfo.com/documentation?town=winnipeg```   
     - response:
     ```
     {
