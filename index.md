@@ -26,7 +26,7 @@ There are three endpoints for this API using `GET` request.
     }
     ```
 
-#### `/polulation`
+#### `/population`
 - parameters: **comparison** (string), the value must be one of `"less"`, `"more"`, or `"equal"`. Required.
 **size** (int), the number of people in a town. Required.
 - sample request: ```https://www.manitobatowninfo.com/polulation?comparison=less&size=1000```
