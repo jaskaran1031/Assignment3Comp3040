@@ -1,5 +1,5 @@
 ## Manitoba towns' info API
-This API provides information of each city/ town in Manitoba, including population, the number of hospitals, the number of police stations, the number of museums, and the number of universities/ colleges. 
+This API provides information of each city/town in Manitoba, including population, the number of hospitals, the number of police stations, the number of museums, and the number of universities/colleges. 
 
 ### API documentation
 
